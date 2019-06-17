@@ -13,7 +13,7 @@ $system = new SystemCheck();
 
 ## Health Check API
 
-### `system->getStatus()`
+### `$system->getStatus()`
 
 results :
 ```
@@ -25,7 +25,7 @@ results :
 ```
 
 
-### `system->getReleaseInfo()`
+### `$system->getReleaseInfo()`
 
 Details :
 - php version
