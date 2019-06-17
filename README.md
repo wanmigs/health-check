@@ -1,5 +1,5 @@
 # Overview
-- implement a HTTP health check url that can be hit to perform basic application diagnostics
+- implement a HTTP health check API that can be hit to perform basic application diagnostics
 - application instance health check
 - application release health check
 
