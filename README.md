@@ -73,3 +73,6 @@ Details :
 }
 
 ```
+
+## Laravel Setup Sample with database last migrations executed 
+https://gist.github.com/wanmigs/90db26e95be708f9d7b9ac6fd3052c62
