@@ -1,9 +1,9 @@
-### Overview
+# Overview
 - implement a HTTP health check url that can be hit to perform basic application diagnostics
 - application instance health check
 - application release health check
 
-### Setup Health Check
+## Setup Health Check
 
 ```
 use wanmigs\HealthCheck\SystemCheck;
@@ -11,9 +11,9 @@ use wanmigs\HealthCheck\SystemCheck;
 $system = new SystemCheck();
 ```
 
-### Health Check API
+## Health Check API
 
-`system->getStatus()`
+### `system->getStatus()`
 
 results :
 ```
@@ -24,7 +24,8 @@ results :
 }
 ```
 
-`system->getReleaseInfo()`
+
+### `system->getReleaseInfo()`
 
 Details :
 - php version
@@ -57,13 +58,13 @@ Details :
 - information stored from `build.json` generated from CI build
 - database information stored in database
 
-#### Defining `build.json` path
+## Defining `build.json` path
 
-##### Option 1
-environment variable `GIT_BUILD_FILE_PATH`
+### Option 1
+### env `GIT_BUILD_FILE_PATH`
 
-##### Option 2 
-`$system->setBuildPath($path_to_build_json);`
+### Option 2 
+### `$system->setBuildPath($path_to_build_json);`
 
 #### file resource :
 
