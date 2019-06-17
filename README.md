@@ -24,19 +24,13 @@ results :
 }
 ```
 
-
-### `$system->getReleaseInfo()`
+### `$system->getPhpInfo()`
 
 Details :
 - php version
 - php component checks
-- information stored from `build.json` generated from CI build
 
-Release Health Check URL :
-
-
-
-sample results :
+results :
 ```
 {
     'timestamp': '2019-06-14T04:01:03Z00:00'
@@ -45,18 +39,14 @@ sample results :
     'php-modules': [
         'mbstring',
         . . .
-    ],
-    'branch': '<git-branch>',
-    'release': '<git-relesae-tag>',
-    'commit': '<git-commit-id>',
-    'build': '<CI-build-id>'
-    'config': '<configuration-id-from-CD>'
+    ]
 }
 ```
 
+### `$system->getReleaseInfo()`
+
 Details :
 - information stored from `build.json` generated from CI build
-- database information stored in database
 
 ## Defining `build.json` path
 
