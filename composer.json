@@ -10,10 +10,9 @@
       {
           "name": "Juan Miguel Torres",
           "email": "wanmigs@gmail.com",
-          "homepage": "http://yourhomepage-if-you-have.com"
+          "homepage": "https://github.com/wanmigs/health-check"
       }
   ],
-  "minimum-stability": "dev",
   "autoload": {
       "psr-4": {
           "wanmigs\\HealthCheck\\": "src/"
